@@ -1,0 +1,184 @@
+{
+ "duration": 34.779167,
+ "frames30": 1043,
+ "source": "silence-align (cost 0.74)",
+ "segments": [
+  [
+   0.186833,
+   2.68423
+  ],
+  [
+   3.08715,
+   4.43556
+  ],
+  [
+   5.0876,
+   6.28702
+  ],
+  [
+   6.5961,
+   7.64369
+  ],
+  [
+   7.93719,
+   9.5979
+  ],
+  [
+   10.1431,
+   10.8444
+  ],
+  [
+   11.1819,
+   12.1674
+  ],
+  [
+   12.3794,
+   14.3894
+  ],
+  [
+   14.8905,
+   16.0201
+  ],
+  [
+   16.2762,
+   17.6114
+  ],
+  [
+   18.2183,
+   19.6402
+  ],
+  [
+   20.0692,
+   21.4531
+  ],
+  [
+   21.9454,
+   23.0685
+  ],
+  [
+   23.2318,
+   24.008
+  ],
+  [
+   24.6638,
+   25.1959
+  ],
+  [
+   25.4353,
+   27.0072
+  ],
+  [
+   27.2825,
+   28.6107
+  ],
+  [
+   29.0239,
+   30.5797
+  ],
+  [
+   31.2143,
+   32.398
+  ],
+  [
+   32.9462,
+   34.3664
+  ]
+ ],
+ "phrases": [
+  {
+   "text": "Two teenagers got locked in their high school overnight.",
+   "s": 0.187,
+   "e": 2.684
+  },
+  {
+   "text": "Only one of them wanted out.",
+   "s": 3.087,
+   "e": 4.436
+  },
+  {
+   "text": "One Friday in Ohio,",
+   "s": 5.088,
+   "e": 6.287
+  },
+  {
+   "text": "detention ran late,",
+   "s": 6.596,
+   "e": 7.644
+  },
+  {
+   "text": "and the janitor locked every door.",
+   "s": 7.937,
+   "e": 9.598
+  },
+  {
+   "text": "Jake panicked.",
+   "s": 10.143,
+   "e": 10.844
+  },
+  {
+   "text": "He banged on doors,",
+   "s": 11.182,
+   "e": 12.167
+  },
+  {
+   "text": "yelled into vents, and tried every window.",
+   "s": 12.379,
+   "e": 14.389
+  },
+  {
+   "text": "Mia just sat on a desk,",
+   "s": 14.89,
+   "e": 16.02
+  },
+  {
+   "text": "eating vending machine chips.",
+   "s": 16.276,
+   "e": 17.611
+  },
+  {
+   "text": "At midnight, the lights went out.",
+   "s": 18.218,
+   "e": 19.64
+  },
+  {
+   "text": "Something rattled down the hall.",
+   "s": 20.069,
+   "e": 21.453
+  },
+  {
+   "text": "Jake screamed so loud,",
+   "s": 21.945,
+   "e": 23.069
+  },
+  {
+   "text": "the trophies shook.",
+   "s": 23.232,
+   "e": 24.008
+  },
+  {
+   "text": "In the morning,",
+   "s": 24.664,
+   "e": 25.196
+  },
+  {
+   "text": "the janitor found them in the library and asked Mia one question:",
+   "s": 25.435,
+   "e": 28.611
+  },
+  {
+   "text": "\"Why didn't you just use your keys?\"",
+   "s": 29.024,
+   "e": 30.58
+  },
+  {
+   "text": "Her mom was the principal.",
+   "s": 31.214,
+   "e": 32.398
+  },
+  {
+   "text": "She just wasn't ready to leave him.",
+   "s": 32.946,
+   "e": 34.366
+  }
+ ]
+}

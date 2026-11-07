@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset="utf-8"></head><body style="margin:0;background:#9db7c9">
+<canvas id="c" width="2400" height="2000"></canvas>
+<script>window.addEventListener('error',e=>{window.err=String(e.message);console.log('ERR '+e.message)});</script>
+<script type="module">
+import * as T from './toon.js';
+const c = document.getElementById('c'), g = c.getContext('2d');
+g.fillStyle = '#c9d8e4'; g.fillRect(0, 0, 2400, 2000);
+const list = [
+ ['jake', {}], ['jake', { expr: 'scream', L: 'up', R: 'up', spiky: 1, sweat: true }], ['jake', { expr: 'yell', L: 'bang', R: 'cup', bang: 1 }], ['jake', { expr: 'panic', L: 'glass', R: 'glass' }],
+ ['jake', { expr: 'sleep', sit: 'floor', tilt: 4 }], ['jake', { expr: 'bored', sit: 'desk', L: 'chin' }], ['jake', { expr: 'yell', L: 'pull', R: 'pull' }], ['jake', { expr: 'wake', L: 'hang', R: 'hang' }],
+ ['mia', { expr: 'smug', L: 'hold', R: 'eat', propL: 'chips', propR: 'chip' }], ['mia', { expr: 'chew', sit: 'desk', L: 'hold', R: 'eat', propL: 'chips', propR: 'chip', swing: 1 }], ['mia', { expr: 'grin', L: 'flash', R: 'keysup', propL: 'flash', propR: 'keys', nokeys: true }], ['mia', { expr: 'shy', blush: 1, sit: 'floor', tilt: -8 }],
+ ['gus', { expr: 'whistle', phones: true, R: 'hold', propR: 'bigkeys' }], ['gus', { expr: 'sus', R: 'mop', propR: 'mop', L: 'point' }], ['mom', { expr: 'stern', L: 'cross', R: 'cross', glint: 0.8 }], ['mom', { expr: 'smile', L: 'hip', R: 'wave' }],
+];
+list.forEach(([k, o], i) => { g.save(); g.translate((i % 8) * 300, Math.floor(i / 8) * 1000); g.scale(0.5, 1); g.scale(1, 1); const p = new T.Pen(g); g.restore();
+  g.save(); g.translate((i % 8) * 300, Math.floor(i / 8) * 1000); g.scale(0.5, 0.5 * 2); g.restore(); });
+// draw each at 300x500 by scaling a 600x1000 design to 0.5
+list.forEach(([k, o], i) => { g.save(); g.translate((i % 8) * 300, Math.floor(i / 8) * 1000); g.scale(0.5, 0.5); const p = new T.Pen(g); T.teenFront(p, k, { seed: k === 'mia' ? 8 : k === 'gus' ? 21 : k === 'mom' ? 13 : 5, ...o }); g.restore(); });
+window.ready = true;
+</script></body></html>
