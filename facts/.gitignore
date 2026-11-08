@@ -1,0 +1,9 @@
+node_modules/
+frames/
+frames_cap/
+stills/*/
+logs/
+web/lib/
+*.wav
+out/qa_sheet.jpg
+stills/*/
